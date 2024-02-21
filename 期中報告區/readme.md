@@ -1,9 +1,11 @@
 ## 實作練習一: DVWA
-- 下載:docker pull vulnerables/web-dvwa  (KALI 2019:已下載完成)
-- 檢視是否已下載: docker image ls
-- 啟動1:docker run -p 80:80 vulnerables/web-dvwa
-- 啟動2:docker run -p 8080:80 --name DVWA vulnerables/web-dvwa
-- 中止執行:docker kill  XXXX
+- 資料來源:https://hub.docker.com/r/vulnerables/web-dvwa/
+- 執行步驟:
+  - 下載:docker pull vulnerables/web-dvwa  (KALI 2019:已下載完成)
+  - 檢視是否已下載: docker image ls
+  - 啟動1:docker run -p 80:80 vulnerables/web-dvwa
+  - 啟動2:docker run -p 8080:80 --name DVWA vulnerables/web-dvwa
+  - 中止執行:docker kill  XXXX
 ```
 - root@kali:~# docker ps
 CONTAINER ID        IMAGE                  COMMAND             CREATED             STATUS              PORTS                NAMES
@@ -13,9 +15,12 @@ b4560da85569
 root@kali:~# docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 ```
-
-- https://hub.docker.com/r/vulnerables/web-dvwa/
-- admin/password
+- 登入DVWA:登入帳密:admin/password
+- 登入後要建立資料庫 
+```
+First time using DVWA.
+Need to run 'setup.php'.
+```
 ## 實作練習二: nginx 
 - nginx docker
 - https://hub.docker.com/_/nginx/
