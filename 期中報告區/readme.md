@@ -12,6 +12,9 @@ b4560da85569
 root@kali:~# docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 ```
+
+- https://hub.docker.com/r/vulnerables/web-dvwa/
+- admin/password
 ## 實作練習二: nginx 
 - nginx docker
 - https://hub.docker.com/_/nginx/
