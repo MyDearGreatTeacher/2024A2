@@ -1,7 +1,17 @@
 ## 實作練習一:
 - 已下載完成
 - 啟動1:docker run -p 80:80 vulnerables/web-dvwa
-- 啟動2:docker run -p 8080:80 vulnerables/web-dvwa
+- 啟動2:docker run -p 8080:80 --name DVWA vulnerables/web-dvwa
+- 中止執行:docker kill  XXXX
+```
+- root@kali:~# docker ps
+CONTAINER ID        IMAGE                  COMMAND             CREATED             STATUS              PORTS                NAMES
+b4560da85569        vulnerables/web-dvwa   "/main.sh"          12 minutes ago      Up 12 minutes       0.0.0.0:80->80/tcp   sleepy_grothendieck
+root@kali:~# docker kill b4560da85569
+b4560da85569
+root@kali:~# docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+```
 ## 實作練習二: nginx 
 - nginx docker
 - https://hub.docker.com/_/nginx/
