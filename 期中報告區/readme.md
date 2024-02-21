@@ -1,5 +1,6 @@
-## 實作練習一:
-- 已下載完成
+## 實作練習一: DVWA
+- 下載:docker pull vulnerables/web-dvwa  (KALI 2019:已下載完成)
+- 檢視是否已下載: docker image ls
 - 啟動1:docker run -p 80:80 vulnerables/web-dvwa
 - 啟動2:docker run -p 8080:80 --name DVWA vulnerables/web-dvwa
 - 中止執行:docker kill  XXXX
