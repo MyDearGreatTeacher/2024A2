@@ -1,6 +1,7 @@
 ## 實作練習一:
-- docker run -p 80:80 vulnerables/web-dvwa
-
+- 已下載完成
+- 啟動1:docker run -p 80:80 vulnerables/web-dvwa
+- 啟動2:docker run -p 8080:80 vulnerables/web-dvwa
 ## 實作練習二: nginx 
 - nginx docker
 - https://hub.docker.com/_/nginx/
