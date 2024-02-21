@@ -17,7 +17,7 @@
 - 期中考(30%):Linux 雲端伺服器架設與安全設定
 - 期末考(30%):資料庫伺服器架設與安全設定
 - 期中平時(20%):網站伺服器架設與安全設定
-- 期末平時(20%):Network Forensics
+- 期末平時(20%):XXX伺服器架設與安全設定
 ## 參考書籍
 - [Linux Administration Best Practices](https://www.packtpub.com/product/linux-administration-best-practices/9781800568792)
 - [Mastering Linux Administration](https://www.packtpub.com/product/mastering-linux-administration/9781789954272)
