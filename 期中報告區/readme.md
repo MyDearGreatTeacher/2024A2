@@ -1,4 +1,7 @@
-## 實作練習一: nginx 
+## 實作練習一:
+- docker run -p 80:80 vulnerables/web-dvwa
+
+## 實作練習二: nginx 
 - nginx docker
 - https://hub.docker.com/_/nginx/
 - 下載:docker pull nginx
