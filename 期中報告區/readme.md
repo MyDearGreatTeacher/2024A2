@@ -1,3 +1,15 @@
+## 期中報告
+- 雲端技術:虛擬化(Visualization)與容器化(Container)技術
+- Docker
+- Docker 實戰(1):建置DVWA攻擊環境
+- Docker 實戰(2):NoSQL 資料庫(Redis)實戰
+- Docker 實戰(3):NoSQL 資料庫實戰
+## 評分標準
+- 頁數 > 30頁 ==> 70分
+- 實戰內容 > 2  ==> 75分
+- 實戰內容 > 3  ==> 80分
+- 實戰內容 > 4  ==> 85分
+- 
 ## 實作練習一: DVWA
 - 資料來源:https://hub.docker.com/r/vulnerables/web-dvwa/
 - 執行步驟:
