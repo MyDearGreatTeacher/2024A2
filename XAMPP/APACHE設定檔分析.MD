@@ -217,8 +217,8 @@ Group daemon
 # ServerAdmin: Your address, where problems with the server should be
 # e-mailed.  This address appears on some server-generated pages, such
 # as error documents.  e.g. admin@your-domain.com
-#
-ServerAdmin postmaster@localhost
+# ServerAdmin 設定管理者郵件
+ServerAdmin 8wingflying@gmail.com
 
 #
 # ServerName gives the name and port that the server uses to identify itself.
