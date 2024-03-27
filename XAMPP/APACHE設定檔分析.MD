@@ -241,11 +241,11 @@ ServerAdmin 8wingflying@gmail.com
 
 ServerName localhost:80
 
-#
+# 6.3.目錄存取 
 # Deny access to the entirety of your server's filesystem. You must
 # explicitly permit access to web content directories in other 
 # <Directory> blocks below.
-#
+# # 針對首頁目錄所進行的各項權限控制項目
 <Directory />
     AllowOverride none
     Require all denied
@@ -258,11 +258,11 @@ ServerName localhost:80
 # below.
 #
 
-#
+# 6.4.DocumentRoot 設定網頁根目錄
 # DocumentRoot: The directory out of which you will serve your
 # documents. By default, all requests are taken from this directory, but
 # symbolic links and aliases may be used to point to other locations.
-# DocumentRoot 設定網頁根目錄
+# 
 DocumentRoot "C:/xampp/htdocs"
 <Directory "C:/xampp/htdocs">
     #
@@ -292,7 +292,7 @@ DocumentRoot "C:/xampp/htdocs"
     Require all granted
 </Directory>
 
-#
+# 6.5.設定首頁
 # DirectoryIndex: sets the file that Apache will serve if a directory
 # is requested.
 #
@@ -302,7 +302,7 @@ DocumentRoot "C:/xampp/htdocs"
                    home.php home.pl home.cgi home.asp home.shtml home.html home.htm
 </IfModule>
 
-#
+# 6.6.安全性設定1 避免.htaccess和 .htpasswd被客戶端瀏覽器看到
 # The following lines prevent .htaccess and .htpasswd files from being 
 # viewed by Web clients. 
 #
@@ -310,7 +310,7 @@ DocumentRoot "C:/xampp/htdocs"
     Require all denied
 </Files>
 
-#
+# 6.7.安全性設定2 == > ErrorLog 設定發生錯誤時的日誌檔存放位置
 # ErrorLog: The location of the error log file.
 # If you do not specify an ErrorLog directive within a <VirtualHost>
 # container, error messages relating to that virtual host will be
@@ -319,8 +319,9 @@ DocumentRoot "C:/xampp/htdocs"
 #
 ErrorLog "logs/error.log"
 
-#
+# 6.8.安全性設定3 == > 
 # LogLevel: Control the number of messages logged to the error_log.
+# IPAS中階
 # Possible values include: debug, info, notice, warn, error, crit,
 # alert, emerg.
 #
@@ -339,7 +340,7 @@ LogLevel warn
       LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\" %I %O" combinedio
     </IfModule>
 
-    #
+    # 6.9.安全性設定4 CustomLog 設定日誌格式與位置 指定使用者自己的日誌檔的位置
     # The location and format of the access logfile (Common Logfile Format).
     # If you do not define any access logfiles within a <VirtualHost>
     # container, they will be logged here.  Contrariwise, if you *do*
