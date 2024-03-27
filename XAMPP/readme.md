@@ -6,3 +6,4 @@
 - https://httpd.apache.org/docs/2.4/
 - https://www.cynet.com.tw/learning/apache/apachedoc.htm
 - 鳥歌 https://dic.vbird.tw/linux_server/unit10.php
+- https://www.cynet.com.tw/learning/apache/apachedoc.htm
