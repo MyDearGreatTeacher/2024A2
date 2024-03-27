@@ -5,3 +5,4 @@
 - 在Windows使用IIS、Apache、Nginx申請免費SSL/TLS憑證，自動從Let’s Encrypt更新
 - https://httpd.apache.org/docs/2.4/
 - https://www.cynet.com.tw/learning/apache/apachedoc.htm
+- 鳥歌 https://dic.vbird.tw/linux_server/unit10.php
