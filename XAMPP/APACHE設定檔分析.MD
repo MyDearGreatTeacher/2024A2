@@ -26,7 +26,7 @@
 # will be used by default.  It is recommended that you always supply
 # an explicit drive letter in absolute paths to avoid confusion.
 
-#
+# 1.ServerRoot
 # ServerRoot: The top of the directory tree under which the server's
 # configuration, error, and log files are kept.
 #
@@ -40,7 +40,7 @@ Define SRVROOT "C:/xampp/apache"
 
 ServerRoot "C:/xampp/apache"
 
-#
+# 2.Mutex
 # Mutex: Allows you to set the mutex mechanism and mutex file directory
 # for individual mutexes, or change the global defaults
 #
@@ -50,7 +50,7 @@ ServerRoot "C:/xampp/apache"
 #
 # Mutex default:logs
 
-#
+# 3.Listen 傾聽哪一個PORT
 # Listen: Allows you to bind Apache to specific IP addresses and/or
 # ports, instead of the default. See also the <VirtualHost>
 # directive.
@@ -59,9 +59,10 @@ ServerRoot "C:/xampp/apache"
 # prevent Apache from glomming onto all bound IP addresses.
 #
 #Listen 12.34.56.78:80
+# 預設 Apache 的監聽埠口:預設80  == > 改成81
 Listen 80
 
-#
+# 4.載入DSO模組
 # Dynamic Shared Object (DSO) Support
 #
 # To be able to use the functionality of a module which was built as a DSO you
@@ -77,7 +78,13 @@ LoadModule access_compat_module modules/mod_access_compat.so
 LoadModule actions_module modules/mod_actions.so
 LoadModule alias_module modules/mod_alias.so
 LoadModule allowmethods_module modules/mod_allowmethods.so
+# mod_allowmethods.so
+# https://httpd.apache.org/docs/2.4/mod/mod_allowmethods.html
+# 實作http八大方法::HTTP request methods
 LoadModule asis_module modules/mod_asis.so
+## http支援兩種認證 == > 
+## 1.Baisc 認證 == > BASE64編碼
+## 2.Digest 認證
 LoadModule auth_basic_module modules/mod_auth_basic.so
 #LoadModule auth_digest_module modules/mod_auth_digest.so
 #LoadModule auth_form_module modules/mod_auth_form.so
@@ -187,6 +194,7 @@ LoadModule version_module modules/mod_version.so
 #LoadModule watchdog_module modules/mod_watchdog.so
 #LoadModule xml2enc_module modules/mod_xml2enc.so
 
+# 5.unixd_module 設定
 <IfModule unixd_module>
 #
 # If you wish httpd to run as a different user or group, you must run
@@ -201,6 +209,7 @@ Group daemon
 
 </IfModule>
 
+# 6.伺服器設定
 # 'Main' server configuration
 #
 # The directives in this section set up the values used by the 'main'
@@ -213,20 +222,23 @@ Group daemon
 # virtual host being defined.
 #
 
-#
+# 6.1.ServerAdmin  伺服器管理員
 # ServerAdmin: Your address, where problems with the server should be
 # e-mailed.  This address appears on some server-generated pages, such
 # as error documents.  e.g. admin@your-domain.com
 # ServerAdmin 設定管理者郵件
 ServerAdmin 8wingflying@gmail.com
 
-#
+# 6.2.ServerName 設定主機名稱及埠號
 # ServerName gives the name and port that the server uses to identify itself.
 # This can often be determined automatically, but we recommend you specify
 # it explicitly to prevent problems during startup.
 #
 # If your host doesn't have a registered DNS name, enter its IP address here.
-#
+# 範例一: ServerName 127.0.0.1:80
+# 範例二: ServerName 192.168.1.182:80
+# 範例三: ServerName www.A888168.com.tw:80
+
 ServerName localhost:80
 
 #
@@ -250,7 +262,7 @@ ServerName localhost:80
 # DocumentRoot: The directory out of which you will serve your
 # documents. By default, all requests are taken from this directory, but
 # symbolic links and aliases may be used to point to other locations.
-#
+# DocumentRoot 設定網頁根目錄
 DocumentRoot "C:/xampp/htdocs"
 <Directory "C:/xampp/htdocs">
     #
