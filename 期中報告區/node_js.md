@@ -8,7 +8,7 @@
 - https://hub.docker.com/_/node?tab=tags
 - 步驟1:下載image ==> sudo docker pull node
 - 步驟2:啟動成container  ==> sudo docker run -itd --name a888168 node
-- 步驟3:登入到container 執行 node 程式
+- 步驟3:登入到container 執行 node 程式   ==>  docker exec -it f645f6ba6827 bash
   - node -v
   - node
   - >.help
