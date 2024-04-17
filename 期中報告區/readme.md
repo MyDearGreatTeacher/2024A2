@@ -10,7 +10,7 @@
 - 實戰內容 > 2  ==> 75分
 - 實戰內容 > 3  ==> 80分
 - 實戰內容 > 4  ==> 85分
-- 
+- Ubuntu 23.04.ova Username: ksu Password: forensics2023@
 ## 實作練習一: DVWA
 - 資料來源:https://hub.docker.com/r/vulnerables/web-dvwa/
 - 執行步驟:
