@@ -1,0 +1,6 @@
+# XAMPP_Directory目錄結構
+- C:\XAMPP
+  - ...
+  - htdocs(網站應用程式)
+  - mysql(mysql 伺服器)
+  - ...
