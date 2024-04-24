@@ -13,3 +13,5 @@
   - 16 建立天氣資料庫
   - 17 利用觸發器追蹤投票者資料異動
   - 18 利用檢視表保護薪資資料 
+- [MySQL 故障排除與效能調校完全攻略 (上)](https://www.tenlong.com.tw/products/9789864349586?list_name=srh)
+- [MySQL 故障排除與效能調校完全攻略 (下)](https://www.tenlong.com.tw/products/9789864349593?list_name=sp)
