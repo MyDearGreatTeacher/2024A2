@@ -15,6 +15,7 @@
   ![開啟之首頁](XAMPP_1.png)
 
 - http://127.0.0.1/dashboard/phpinfo.php
+  - phpinfo.php ==> 只有一行程式 <?php phpinfo(); ?> 
   ![phpinfo](XAMPP_2.png)
 
 - 使用 PHP撰寫的Mysql 資料庫管理系統
