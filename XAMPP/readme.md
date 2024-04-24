@@ -22,7 +22,9 @@
 - http://127.0.0.1/phpmyadmin/
 
    ![phpmyadmin](PHPmyadmin__1.png)
-
+- 更改MYLSQ資料庫密碼[Resetting MySQL Root Password with XAMPP on Localhost](https://stackoverflow.com/questions/24566453/resetting-mysql-root-password-with-xampp-on-localhost)
+  - 檔案名稱 `C:\xampp\phpMyAdmin\config.inc.php `
+  - 更改`$cfg['Servers'][$i]['password'] = 'KSU2024';` 
 - mysql執行檔 ==> `C:\xampp\mysql\bin`
   - [MySQL 教程](https://www.runoob.com/mysql/mysql-tutorial.html)
   - 👍mysql.exe (連線到mysql資料庫的客戶端程式)
