@@ -5,6 +5,10 @@
 # 安裝過程
 # 啟動 ==> 參考XAMPP目錄結構
 - [XAMPP目錄結構](XAMPP_Directory.md)
+- 首頁及各類網站應用程式 ==> C:\xampp\htdocs
+
+![XAMPP_CONTENT_1](XAMPP_CONTENT_1.png)
+
 - 開啟之首頁
 - https://127.0.0.1/dashboard/
 
