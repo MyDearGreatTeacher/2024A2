@@ -23,6 +23,33 @@
 
    ![phpmyadmin](PHPmyadmin__1.png)
 
+- mysql執行檔 ==> `C:\xampp\mysql\bin`
+  - [MySQL 教程](https://www.runoob.com/mysql/mysql-tutorial.html)
+  - 👍mysql.exe (連線到mysql資料庫的客戶端程式)
+  - mysqladmin.exe
+  - mysqlbinlog.exe
+  - mysqlcheck.exe
+  - 👍mysqld.exe(mysql資料庫伺服器程式)
+  - 👍mysqldump.exe(備份&還原mysql資料庫指令)
+    - [6.5.4 mysqldump — A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
+    - [The Complete mysqldump Guide (with examples)](https://simplebackups.com/blog/the-complete-mysqldump-guide-with-examples/)
+    - [[MySQL] Mysqldump 備份&還原資料庫 – 指令範例](https://code.yidas.com/mysqldump/)
+  - mysqldumpslow.pl
+  - mysqld_multi.pl
+  - mysqlhotcopy.pl
+  - 👍mysqlimport.exe
+    - [6.5.5 mysqlimport — A Data Import Program](https://dev.mysql.com/doc/refman/8.0/en/mysqlimport.html) 
+  - mysqlshow.exe
+  - mysqlslap.exe
+  - mysql_config.pl
+  - mysql_convert_table_format.pl
+  - mysql_install_db.exe
+  - mysql_ldb.exe
+  - mysql_plugin.exe
+  - mysql_tzinfo_to_sql.exe
+  - mysql_upgrade.exe
+  - mysql_upgrade_service.exe
+  - mysql_upgrade_wizard.exe 
 # XAMPP
 - https://klab.tw/2022/08/automatically-renew-lets-encrypt-https-credentials-using-apache-nginx-on-windows/
 - 在Windows使用IIS、Apache、Nginx申請免費SSL/TLS憑證，自動從Let’s Encrypt更新
