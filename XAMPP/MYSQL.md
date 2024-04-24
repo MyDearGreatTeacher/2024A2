@@ -1,6 +1,6 @@
 # MYSQL
 
-# 教學錄影
+# [教學錄影](錄影教學.md)
 
 # DVWA解題
 - [Damn Vulnerable Web Application (DVWA)15 部影片觀看次數：68,434次上次更新日期：2021年10月3日](https://www.youtube.com/playlist?list=PLHUKi1UlEgOJLPSFZaFKMoexpM6qhOb4Q)
