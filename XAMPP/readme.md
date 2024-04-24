@@ -27,8 +27,20 @@
   - 檔案名稱 `C:\xampp\phpMyAdmin\config.inc.php `
   - 更改`$cfg['Servers'][$i]['password'] = 'KSU2024';`
   - 存檔後重啟MYSQL
-  - 連線到 mysql 資料庫 == > `mysql -u root password KSU2024`
-  - 
+  - 連線到 mysql 資料庫 
+```
+C:\xampp\mysql\bin>mysql -u root -p test
+Enter password: *******
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 13
+Server version: 10.4.32-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [test]>
+```
 ## 更多mysql執行檔
 - mysql執行檔 ==> `C:\xampp\mysql\bin`
   - [MySQL 教程](https://www.runoob.com/mysql/mysql-tutorial.html)
