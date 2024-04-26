@@ -9,3 +9,13 @@
     - [快速入门 — Flask 文档](https://cainiaojiaocheng.com/Flask/docs/1.1.x/quickstart)
 - node.js
   - [Node.js 教程 | 菜鸟教程](https://www.runoob.com/nodejs/nodejs-tutorial.html) 
+
+
+## Flask Web 應用程式開發
+- [Python Flask Web 開發入門與項目實戰 | 錢游](https://www.tenlong.com.tw/products/9787111630883)
+  - [筆記]() 
+- [Flask Web 全棧開發實戰|黃勇](https://www.tenlong.com.tw/products/9787302609285?list_name=sp)
+- [Flask Web 開發從入門到精通, 2/e (Flask Framework Cookbook, 2/e)| Aggarwal, Shalabh](https://www.tenlong.com.tw/products/9787302556992?list_name=rd)
+- [Flask開發Web搜索引擎入門與實戰 |張子憲](https://www.tenlong.com.tw/products/9787302601326?list_name=sp)
+- [實戰 Python Flask 開發｜基礎知識 x 物件偵測 x 機器學習應用 | 佐藤昌基, 平田哲也, 寺田學](https://www.tenlong.com.tw/products/9786263243491?list_name=sp)
+- [Flask 網頁開發, 2/e (Flask Web Development : Developing Web Applications with Python, 2/e) | Miguel Grinberg](https://www.tenlong.com.tw/products/9789864768684?list_name=rd) 
