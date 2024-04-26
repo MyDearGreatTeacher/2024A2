@@ -51,6 +51,7 @@
 ## gitlab 伺服器架設與安全設定
 - https://www.ccc.tc/article/docker-and-gitlab
 - https://medium.com/phelps-laboratory/docker-install-gitlab-52ea641eca90
+[![GITLAB](https://1000logos.net/wp-content/uploads/2022/03/Gitlab-Logo.png)](https://about.gitlab.com/)
 ## Linux streaming server
 - https://medevel.com/12-os-live-streaming-platforms/
 - https://owncast.online/
