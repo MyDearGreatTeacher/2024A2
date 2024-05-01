@@ -6,10 +6,15 @@
 
 ## 本地端Flask
 - Windows
-- 安裝Anaconda
+- 安裝Anaconda [CONDA指令](https://github.com/MyDearGreatTeacher/2024A2/blob/main/conda-cheatsheet.pdf)
   - conda env list
   - conda list  [看看裝了甚麼](conda_list.md) 
-- 步驟一 : 安裝 Flask 套件== >安裝flask : pip install flask
+![anaconda_1.png](anaconda_1.png)
+- 步驟一 : 安裝 Flask 套件== >
+  - 安裝好Anaconda後就已經裝了flask
+  - 若沒有安裝flask
+    - conda install flask
+    - 可以使用 pip install flask
 - 步驟二 : 撰寫程式 app.py (使用notepad++)
 ```
 from flask import Flask
