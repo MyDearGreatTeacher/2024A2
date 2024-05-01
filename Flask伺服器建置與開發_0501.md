@@ -7,6 +7,8 @@
 ## 本地端Flask
 - Windows
 - 安裝Anaconda
+  - conda env list
+  - conda list  [看看裝了甚麼](conda_list.md) 
 - 步驟一 : 安裝 Flask 套件== >安裝flask : pip install flask
 - 步驟二 : 撰寫程式 app.py (使用notepad++)
 ```
