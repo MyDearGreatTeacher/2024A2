@@ -132,6 +132,7 @@ if __name__ == "__main__":
 ```
 
 ## 執行步驟
+- 安裝openai
 - 1.開啟anaconda navigator
 - 2.lunch anaconda的cmd
 - 3.進入到程式內 執行flask run
