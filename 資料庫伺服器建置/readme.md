@@ -12,3 +12,10 @@
   - 這種非關係資料庫設計不需要架構，因此它提供了快速的可伸縮性來管理大型且通常是非結構化的資料集。
   - 常用的NoSQL資料庫: Mongodb, Redis, Hbase, …….
 # 資料庫伺服器
+
+
+## 參考書籍
+- [MySQL新手入門超級手冊-第三版(適用MySQL 8.x與MariaDB 10.x)](https://www.tenlong.com.tw/products/9786263241787?list_name=srh)
+  - [程式碼](https://www.gotop.com.tw/books/download.aspx?bookid=AED004300)
+- [數位世界大師 MongoDB 4.2 版](https://www.tenlong.com.tw/products/9789869872805?list_name=srh)
+  - [GITHUB](https://github.com/pyrarc/tw_mongodb_book) 
