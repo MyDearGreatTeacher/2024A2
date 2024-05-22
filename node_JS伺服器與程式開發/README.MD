@@ -7,6 +7,7 @@
     - 9章 使用Angular開發單頁面應用：基礎 297
     - 10章 使用Angular開發單 頁面應用：進階 331 
 - [Node + MongoDB + React 項目實戰開發| 鄒瓊俊著](https://www.tenlong.com.tw/products/9787517095248?list_name=srh)
+- [Node.js 入門指南|司明岳](https://www.tenlong.com.tw/products/9787301326176?list_name=sp)
 - [React.js + Node.js + MongoDB 企業級全棧開發實踐|李海燕]()
 - Packt pub
   - Node.js Web Development
