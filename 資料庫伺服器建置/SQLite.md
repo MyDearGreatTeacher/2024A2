@@ -1,6 +1,8 @@
-![image](https://github.com/MyDearGreatTeacher/2024A2/assets/37649784/5ac08b6f-c6c2-4923-af2a-4db762c76427)# SQLite
-- [SQLite 教程](https://www.runoob.com/sqlite/sqlite-tutorial.html)
+# SQLite
+
+
 ## SQLite基本操作
+- [SQLite 教程](https://www.runoob.com/sqlite/sqlite-tutorial.html)
 
 # 使用Python存取SQLite 
 ### 使用sqlite3模組 ==> 建立A888168.db資料庫
