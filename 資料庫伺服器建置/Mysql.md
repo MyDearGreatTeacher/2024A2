@@ -1,6 +1,7 @@
 # Mysql資料庫伺服器建置與測試
 
-
+- [MySQL 教程](https://www.runoob.com/mysql/mysql-tutorial.html)
+### 建立資料庫與資料表的SQL
 ```
 DROP TABLE IF EXISTS emp;
 
