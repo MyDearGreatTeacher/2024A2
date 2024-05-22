@@ -28,3 +28,5 @@
 ## NVM for Windows
 - https://github.com/coreybutler/nvm-windows/releases
 
+## [在 Windows 上安裝 NodeJS](https://learn.microsoft.com/zh-tw/windows/dev-environment/javascript/nodejs-on-windows)
+
