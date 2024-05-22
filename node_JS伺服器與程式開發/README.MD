@@ -1,6 +1,7 @@
 ## Node.js
-
-
+- [網頁應用程式設計｜使用 Node 和 Express, 2/e (Web Development with Node and Express, 2/e)|Ethan Brown](https://www.tenlong.com.tw/products/9789865025311?list_name=srh)
+- Packt pub
+  - Node.js Web Development 
 ## JAVASCRIPT 一統天下
 - 前端(Client-side) ==> Vue.js react.js
   - [Vue 3](https://www.runoob.com/vue3/vue3-tutorial.html) 
