@@ -14,8 +14,9 @@
 # 資料庫伺服器(1)SQLite
 # [資料庫伺服器(2)Mysql](Mysql.md)
 
-# 資料庫伺服器(3)NoSQL ==> MongoDB
-# 資料庫伺服器(4)NoSQL ==> Redis
+# [資料庫伺服器(3)NoSQL ==> MongoDB](MongoDB.md)
+# 加分用(自己完成)
+- 資料庫伺服器(4)NoSQL ==> Redis
   - 使用docker 安裝與測試
   - https://hub.docker.com/r/bitnami/redis
 
