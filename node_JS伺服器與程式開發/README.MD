@@ -1,5 +1,6 @@
 ## Node.js
 - [網頁應用程式設計｜使用 Node 和 Express, 2/e (Web Development with Node and Express, 2/e)|Ethan Brown](https://www.tenlong.com.tw/products/9789865025311?list_name=srh)
+- [Node.js 實戰, 2/e](https://www.tenlong.com.tw/products/9787115487308?list_name=rd)
 - [MEAN 全棧開發 : 使用Mongo、Express、 Angular 和 Node, 2/e ](https://www.tenlong.com.tw/products/9787302551850?list_name=srh)
   - Ⅲ部分 使用Angular創建動態頁面
     - 8章 使用TypeScript開發Angular應用程序 259
