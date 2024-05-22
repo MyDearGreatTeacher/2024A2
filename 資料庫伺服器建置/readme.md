@@ -13,7 +13,7 @@
   - 常用的NoSQL資料庫: Mongodb, Redis, Hbase, …….
 # 資料庫伺服器(1)SQLite
 # [資料庫伺服器(2)Mysql](Mysql.md)
-  - [MySQL 教程](https://www.runoob.com/mysql/mysql-tutorial.html)
+
 # 資料庫伺服器(3)NoSQL ==> MongoDB
 # 資料庫伺服器(4)NoSQL ==> Redis
   - 使用docker 安裝與測試
