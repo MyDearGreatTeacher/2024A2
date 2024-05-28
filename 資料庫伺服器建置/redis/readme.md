@@ -1,5 +1,6 @@
 # Redis@Windows環境建置
 - [在 windows 上安装 Redis](https://redis.com.cn/redis-installation.html)
+  - https://github.com/tporadowski/redis/releases
   - https://github.com/MicrosoftArchive/redis/releases 
 - client端工具
   - [Redis Insight](https://redis.io/insight/#insight-form)
