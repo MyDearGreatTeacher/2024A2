@@ -11,5 +11,8 @@
 - https://www.javatpoint.com/redis-tutorial
 
 # 參考書籍
+- [NoSQL 開發完美方案：Redis + Docker 高性能虛擬化實戰|高洪岩|深智數位](https://www.tenlong.com.tw/products/9789860776140?list_name=srh)
 - [Redis Stack for Application Modernization](https://www.packtpub.com/product/redis-stack-for-application-modernization/9781837638185)
   - [GITHUB](https://github.com/PacktPublishing/Redis-Stack-for-Application-Modernization) 
+
+## [Redis 教程](https://www.runoob.com/redis/redis-tutorial.html)
