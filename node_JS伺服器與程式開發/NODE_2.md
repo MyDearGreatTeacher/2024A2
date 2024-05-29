@@ -59,7 +59,7 @@ exports.myDateTime = function () {
 };
 ```
 
-- 建立你的程式 A888168_2.js
+- 建立你的程式 A888168_2.js  ==> 這是錯誤的程式 ==> 使用兩次res.end
 ```javascript
 var http = require('http');
 var dt = require('./A888');
@@ -75,6 +75,55 @@ http.createServer(function (req, res) {
 
 console.log('Server running at http://127.0.0.1:8111/');
 ```
+- 執行後的錯誤訊息
+```javascript
+PS C:\Users\KSU\A888168_0529> node .\A888168_3.js
+Server running at http://127.0.0.1:8111/
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
 
+Error [ERR_STREAM_WRITE_AFTER_END]: write after end
+    at write_ (node:_http_outgoing:911:11)
+    at ServerResponse.write (node:_http_outgoing:864:15)
+    at Server.<anonymous> (C:\Users\KSU\A888168_0529\A888168_3.js:9:7)
+    at Server.emit (node:events:519:28)
+    at parserOnIncoming (node:_http_server:1140:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+Emitted 'error' event on ServerResponse instance at:
+    at emitErrorNt (node:_http_outgoing:883:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'ERR_STREAM_WRITE_AFTER_END'
+}
+
+Node.js v20.14.0
+```
+- 把程式丟給copilot分析
+```
+你的 Node.js 程式碼看起來是一個簡單的 HTTP 伺服器，但是有一個小問題需要修正。
+讓我來幫你解決這個問題。
+
+在你的程式碼中，你使用了兩次 res.end()。
+這是不正確的，因為一旦響應結束，就不能再對響應物件進行操作。
+你應該只使用一次 res.end()。
+
+以下是修正後的程式碼：
+
+var http = require('http');
+var dt = require('./A888');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write('<head><meta charset="utf-8"/></head>');  
+  res.write('<h1>龍大大Node.js程式開發</h1>');  
+  res.write('<br> Hello World! This is A888168 龍大大');
+  res.write("我與程式奮鬥的時間: " + dt.myDateTime());
+  res.end();
+}).listen(8111);
+
+console.log('Server running at http://127.0.0.1:8111/');
+AI 產生的代碼。請仔細檢視及使用。 深入了解常見問題集。
+現在，你的伺服器應該可以正確運行了。如果你還有其他問題，歡迎隨時詢問！
+```
 ## 第4支程式  ==> Third Party Modules (第三方模組)
 - 安裝第三方模組 ==>npm install express
