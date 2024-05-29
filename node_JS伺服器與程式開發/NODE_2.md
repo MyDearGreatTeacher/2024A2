@@ -16,7 +16,7 @@ console.log('Server running at http://127.0.0.1:8111/');
 - 執行程式 node A888168_1.js
 - 打開瀏覽器 ==>127.0.0.1:8111
 
-## 第二支程式 A888168_2.js
+## 第二支程式: 顯示中文  A888168_2.js
 ```javascript
 var http = require('http');
 
@@ -66,7 +66,10 @@ var dt = require('./A888');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
-  res.write("The date and time are currently: " + dt.myDateTime());
+  res.write('<head><meta charset="utf-8"/></head>');  
+  res.write('<h1>龍大大Node.js程式開發</h1>');  
+  res.end('<br> Hello World! This is A888168 龍大大');
+  res.write("我與程式奮鬥的時間: " + dt.myDateTime());
   res.end();
 }).listen(8111);
 
