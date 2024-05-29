@@ -51,7 +51,7 @@ console.log('Server running at http://127.0.0.1:8111/');
     - 範例:如果你想使用 Express 框架，你可以執行` npm install express` 來安裝它。
 
 - 建立你的函數庫 ==> A888.js
-- 建立你的程式 A888168_2.js
+
 
 ```javascript
 exports.myDateTime = function () {
@@ -59,7 +59,7 @@ exports.myDateTime = function () {
 };
 ```
 
-
+- 建立你的程式 A888168_2.js
 ```javascript
 var http = require('http');
 var dt = require('./A888');
