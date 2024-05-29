@@ -15,6 +15,21 @@ console.log('Server running at http://127.0.0.1:8111/');
 ```
 - 執行程式 node A888168_1.js
 - 打開瀏覽器 ==>127.0.0.1:8111
+
+## 第二支程式 A888168_2.js
+```javascript
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write('<head><meta charset="utf-8"/></head>');  
+  res.write('<h1>Node.js</h1>');  
+  res.write('<b>親愛的，你慢慢飛，小心前面帶刺的玫瑰...</b>');  
+  res.end('<br> Hello World! This is A888168 龍大大');
+}).listen(8111);
+
+console.log('Server running at http://127.0.0.1:8111/');
+```
 ## 第2支程式 
 - 建立你的函數庫 ==> A888.js
 - 建立你的程式 A888168_2.js
