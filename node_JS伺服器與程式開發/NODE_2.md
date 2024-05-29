@@ -1,6 +1,7 @@
 # 單元2:簡單的node.js程式開發
 - [Node.js Tutorial](https://www.w3schools.com/nodejs/default.asp)
 - [Node.js 教程](https://www.runoob.com/nodejs/nodejs-tutorial.html)
+- [Node.JS - 30 天入門學習筆記 系列](https://ithelp.ithome.com.tw/users/20103526/ironman/1081)
 ## 第一支程式 A888168_1.js
 ```javascript
 var http = require('http');
