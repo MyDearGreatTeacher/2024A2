@@ -1,0 +1,27 @@
+# 單元1: node js 開發環境建置
+- 20240529_NODE_JS伺服器建置與開發
+- 安裝 [WINDOWS TERMINAL](https://apps.microsoft.com/detail/9n0dx20hk701?launch=true&mode=full&hl=zh-tw&gl=tw&ocid=bingstartsearch)
+- 步驟:
+  - 1.[下載並安裝NVM](https://github.com/coreybutler/nvm-windows/releases) 
+    - 下載並使用 nvm-setup.exe進行安裝
+  - 2.安裝兩種版本的NODE_JS
+    - nvm install 20.11.0
+    - nvm install 20.14.0
+      - 這是最新版本 ==> https://nodejs.org/en
+  - 3.使用某種版本的NODE JS ==> nvm use 20.11.0
+  - 4.更多指令
+    - node -v
+    - nvm ls
+    - nvm ls-remote
+    - nvm uninstall 20.11.0
+  - 5.進入NODE  ==> Node.js REPL( Read-Evaluate-Print Loop)
+    - node
+  - 6.測試底下指令
+    - > .help
+    - > console.log("The Node.js REPL is awesome!")
+    - > 111 + 123
+    - > .exit
+
+- 7.使用瀏覽器 chrome 的開發者工具(DevTools)測試javascript
+  - 點選 Console
+  - 輸入 document.body.innerHTML = '<h1>Hello World!</h1>' 
