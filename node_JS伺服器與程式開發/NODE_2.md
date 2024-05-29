@@ -16,6 +16,15 @@ console.log('Server running at http://127.0.0.1:8111/');
 - 執行程式 node A888168_1.js
 - 打開瀏覽器 ==>127.0.0.1:8111
 
+```JAVASCRIPT
+var https = require('https');
+
+https.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.write('Hello World!');
+  res.end();
+}).listen(8080);
+```
 ## 第二支程式: 顯示中文  A888168_2.js
 ```javascript
 var http = require('http');
