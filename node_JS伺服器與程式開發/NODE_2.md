@@ -136,3 +136,21 @@ AI 產生的代碼。請仔細檢視及使用。 深入了解常見問題集。
 ```
 ## 第4支程式  ==> Third Party Modules (第三方模組)
 - 安裝第三方模組 ==>npm install express
+```JAVSCRIPT
+//A888168_6.js 文件
+var express = require('express');
+var app = express();
+ 
+app.get('/', function (req, res) {	
+   res.send('Hello World');
+})
+ 
+var server = app.listen(8081, function () {
+ 
+  var host = server.address().address
+  var port = server.address().port
+ 
+  console.log("應用實例，訪問位址為 http://%s:%s", host, port)
+
+})
+```
