@@ -30,7 +30,26 @@ http.createServer(function (req, res) {
 
 console.log('Server running at http://127.0.0.1:8111/');
 ```
-## 第2支程式 
+
+## 第3支程式 ==> 使用內建模組(Modules)
+- Node.js 有三大類的模組
+  - 1.Core Modules (原生模組)
+    - http：它包含可以用來建立http server 的一些類別, 方法, 及事件。
+    - url：它包含可以解析url的一些方法。
+    - querystring：它包含可以處理由client端傳來querystring的一些方法。
+    - path：它包含可以處理一些檔案或資料夾路徑的方法。
+    - fs：它包含檔案的存取／操作的一些類別，方法及事件。
+    - util：它包含一些可供程序者使用的效能函式。
+    - 載入Core Modules ==> `var module = require(‘module_name’);`
+  - 2.Local Modules (自建模組)
+    - 在 Node.js 中，每個 JavaScript 檔案都被視為一個模組。
+    - 當你的專案程式碼持續擴充時，你可以將程式碼拆分成多個模組，以便更好地管理、協作和除錯。
+    - 自建模組應該根據功能寫成獨立的 JavaScript 檔案。例如，你可以建立一個名為 Log.js 的登入模組。 
+  - 3.Third Party Modules (第三方模組)
+    - 這些模組由其他開發者或社群提供，並不是 Node.js 的核心模組。
+    - 可以使用 npm（Node.js 的套件管理工具）來安裝和管理第三方模組。
+    - 範例:如果你想使用 Express 框架，你可以執行` npm install express` 來安裝它。
+## 第3支程式  ==> 自建模組
 - 建立你的函數庫 ==> A888.js
 - 建立你的程式 A888168_2.js
 
@@ -43,11 +62,13 @@ exports.myDateTime = function () {
 
 ```javascript
 var http = require('http');
-var dt = require('./myfirstmodule');
+var dt = require('./A888');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
   res.write("The date and time are currently: " + dt.myDateTime());
   res.end();
-}).listen(8080);
+}).listen(8111);
+
+console.log('Server running at http://127.0.0.1:8111/');
 ```
