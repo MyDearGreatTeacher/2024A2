@@ -49,7 +49,7 @@ console.log('Server running at http://127.0.0.1:8111/');
     - 這些模組由其他開發者或社群提供，並不是 Node.js 的核心模組。
     - 可以使用 npm（Node.js 的套件管理工具）來安裝和管理第三方模組。
     - 範例:如果你想使用 Express 框架，你可以執行` npm install express` 來安裝它。
-## 第3支程式  ==> 自建模組
+
 - 建立你的函數庫 ==> A888.js
 - 建立你的程式 A888168_2.js
 
@@ -72,3 +72,6 @@ http.createServer(function (req, res) {
 
 console.log('Server running at http://127.0.0.1:8111/');
 ```
+
+## 第4支程式  ==> Third Party Modules (第三方模組)
+- 安裝第三方模組 ==>npm install express
