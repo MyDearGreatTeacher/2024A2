@@ -26,6 +26,7 @@
     - [Chart.js 教程](https://www.runoob.com/chartjs/chartjs-tutorial.html) 
 - 伺服器端(Server-side): node.js
   - [Node.js 教程](https://www.runoob.com/nodejs/nodejs-tutorial.html)
+  - [Node.js Tutorial](https://www.w3schools.com/nodejs/default.asp)
 
 ## [在 Windows 上設定您的開發環境](https://learn.microsoft.com/zh-tw/windows/dev-environment/)
 - [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=en-us&gl=TW)
