@@ -3,6 +3,7 @@
 - Colab AI
 - Replit AI
 - Chat Blackbox: AI Code Generation, Code Chat, Code Search
+- [AI Code Tools: The Ultimate Guide in 2024](https://codesubmit.io/blog/ai-code-tools/)
 
 ![cursor_1.png](cursor_1.png)
 
