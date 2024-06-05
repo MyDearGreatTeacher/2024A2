@@ -1,6 +1,7 @@
 # FinMind
 - [FinMind | 台灣金融市場53 種資料集](https://finmind.github.io/tutor/TaiwanMarket/DataList/)
-
+- [FinMind|客製化看盤儀表板](https://finmind.github.io/tutor/analysis/CustomerDashboardWebServer/)
+- [不錯的文件](https://finmind.github.io/)
 
 
 ## lab1
