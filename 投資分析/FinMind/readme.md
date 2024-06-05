@@ -26,3 +26,5 @@ stock_data = data_loader.feature.add_kline_margin_purchase_short_sale(
 # 繪製k線圖
 kline_plot = plotting.kline(stock_data)
 ```
+
+![FINMIND_20240605_2.png](FINMIND_20240605_2.png)
